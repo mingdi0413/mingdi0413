@@ -1,0 +1,165 @@
+#wrap {
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 600px;
+    background-color: #92BEA9;
+}
+
+
+#main img {
+    float: left;
+    width: 700px;
+    height:500px;
+    margin-top: 60px;
+}
+
+#main .intro {
+    float: right;
+    margin-top: 150px;
+    margin-right: 200px;
+}
+
+#main .intro h3 {
+    font-size: 50px;
+    width: 500px;
+    color: #fff;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid#9BB8D5;
+}
+
+#main .intro ul {
+    width: 500px;
+    height: 300px;
+}
+#main .intro ul li {
+    display: inline-block;
+    margin-bottom: 20px;
+    
+}
+#main .intro span {
+    display: inline-block;
+    vertical-align: middle;
+} 
+#main .intro li .dt {
+    padding: 5px 15px;
+    background-color:#9BB8D5;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 20px;
+   
+}
+#main .intro li .dd {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0 54px 0 10px;
+    color: #fff;
+}
+
+#about {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(143, 224, 155);
+}
+#about header {
+    font-size: 6em;
+  color: #B1D5C2;
+  text-shadow: 5px 5px #2D63A7;
+  margin: 0;
+}
+#about ul {
+    float: left;
+    width: 400px;
+    height: 500px;
+    margin-left: 200px;
+    background-color: #E1DCEA;
+}
+
+#about li {
+
+    padding: 10px 17.5px;
+}
+#about li img{
+    width: 100px;
+    height: 100px;
+}
+#about .box {
+    float: right;
+    width: 800px;
+    height: 500px;
+    background-color: #9BB8D5;
+}
+#portfolio {
+    width: 100%;
+    height: 600px;
+    background-color: cornsilk;
+}
+
+#portfolio .tit {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+#goal {
+    width: 100%;
+    height: 2000px;
+    background-color: darkgrey;
+}
+
+#goal .tit {
+    font-size: 6em;
+    color: #B1D5C2;
+    text-shadow: 5px 5px #2D63A7;
+    margin: 0;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+#goal ul {
+    margin: 0 auto;
+    width: 1200px;
+    height: 1600px;
+    margin-top: 20px;
+    background-color: cadetblue;
+}
+
+#goal li {
+   margin: 0 auto;
+    width: 1000px;
+    height: 450px;
+    margin-top: 20px;
+    margin-right: 30px;
+    background-color: rgb(238, 218, 192);
+}
+
+#goal ul li:last-child {
+    margin-right: 0;
+}
+
+#goal .s_tit {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#contact {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(229, 188, 158);
+}
+
+#contact .img {
+    float: left;
+    width: 500px;
+    height: 500px;
+    margin-left: 350px;
+    position: relative;
+    top: 50px;
+    background-color: rgb(212, 181, 241);
+}
+
+
