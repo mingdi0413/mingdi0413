@@ -1,6 +1,8 @@
 #wrap {
     width: 100%;
 }
+
+/*head */
 #header {
     width: 100%;
     height: 1000px;
@@ -33,13 +35,13 @@
 	font-weight: 400;
 	height: 40px;
 	line-height: 40px;
-    border: 2px solid #3a6591;
+    border: 2px solid #9BB8D5;
     color:#9BB8D5;
 	padding: 0 25px;
 	text-align: center; 
 
 }
-
+/* main */
 #main {
     width: 100%;
     height: 1000px;
@@ -58,6 +60,7 @@
     position: relative;
     top: 250px;
     left: 50px; 
+   
 } 
 
 #main .intro {
@@ -109,6 +112,7 @@
     height: 500px;
     border: 1px solid #ccc;
     border-bottom: none;
+    z-index: -9999;
 }
 .main_in .shapes {
     position: absolute;   
@@ -167,7 +171,7 @@
     background-color:#9BB8D5;
 }
 
-
+/* about */
 #about {
     width: 100%;
     height: 800px;
@@ -197,30 +201,93 @@
     background-color: #9BB8D5;
 }
 #about ul h3 {
-    margin: 10px;
+    margin: 30px;
     font-size: 20px;
     color: #fff;
 }
 #about li {
-    margin-left: 33px;
+    margin-left: 35px;
     margin-top: 20px;
 }
 #about li img{
     width:60px;
     height:60px;
 }
+#about .skill span {
+    font-size: 18px;
+    position: relative;
+    top: -20px;
+    left: 20px;
+}
 
 #about li .bar {
     display: inline-block;
-    width: 300px;
+    width: 350px;
     height: 30px;
-    margin: 0 0 15px 170px;
+    margin: 0 0 15px 0;
     border: 2px solid #fff;
+  
 }
-#about li .html {
-    border: none;
-    background-color: #9BB8D5;
+
+#about li .bar1 {
+   margin-left: 80px;
 }
+
+.bar1 .bar_in {
+    width: 85%;
+    height: 30px;
+    background-color: #fff;
+}
+
+#about li .bar2 {
+    margin-left: 100px;
+}
+
+.bar2 .bar_in {
+    width: 80%;
+    height: 30px;
+    background-color: #fff;
+} 
+
+#about li .bar3 {
+    margin-left: 80px;
+}
+
+.bar3 .bar_in {
+    width: 75%;
+    height: 30px;
+    background-color: #fff;
+} 
+
+#about li .bar4 {
+    margin-left: 50px;
+}
+
+.bar4 .bar_in {
+    width: 60%;
+    height: 30px;
+    background-color: #fff;
+} 
+
+#about li .bar5 {
+    margin-left: 85px;
+}
+
+.bar5 .bar_in {
+    width: 40%;
+    height: 30px;
+    background-color: #fff;
+} 
+#about li .bar6 {
+    margin-left: 80px;
+}
+
+.bar6 .bar_in {
+    width: 40%;
+    height: 30px;
+    background-color: #fff;
+} 
+
 #about .box {
     float: right;
     width: 570px;
@@ -248,6 +315,7 @@
     font-size: 30px;
     margin-bottom: 10px;
 }
+/*portfolio*/
 #portfolio {
     width: 100%;
     height: 800px;
@@ -273,6 +341,8 @@
     height: 600px;
     background-color: #9BB8D5;
 }
+
+/* goal */
 #goal {
     width: 100%;
     height: 800px;
@@ -309,10 +379,12 @@
     display: inline-block;
     font-size: 20px;
 }
-
+/* contact */
 #contact {
+    position: relative;
     width: 100%;
-    height: 300px;
+    margin-bottom: 30px;
+ 
 }
 #contact header {
     display: block;
@@ -322,36 +394,58 @@
 }
 .contact_in {
     margin: 0 auto;
-    width: 800px;
-    height: 200px;
+    width: 400px;
+
 }
+
+#form {
+    width: 500px;
+    height: 500px;
+    background-color: #9BB8D5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .field {
-    margin-bottom: 10px;
+    margin: 0 auto;
+    width: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .field label {
     display: block;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 600;
-    color: #fff;
+    color:#fff;
 }
 
 .field input {
     display: block;
+    width: 60%;
     min-width: 250px;
     line-height: 1.5;
     font-size: 14px;
+    border: 1px solid #fff;
+    outline: none;
 }
 
 input[type="submit"] {
     display: block;
+    width: 150px;
+    margin: 0 auto;
     padding: 6px 30px;
     font-size: 14px;
-    background-color: #9BB8D5;
-    color: #fff;
-    border: none
+    background-color: #fff;
+    color: #9BB8D5;
+    border: none;
+    margin-top: 20px;
  }
-
+/* aside */
 aside {
     width: 50px;
     height: 100vh;
@@ -384,10 +478,7 @@ aside ul li:hover {
     height: 7px;
     border-radius: 50%;
     margin-right: 10px;
-}
-      
-.view-icon li.icon-active::before {
-    background-color: #e24849;
+    /* background-color: red; */
 }
       
 /* home, footer보일때 icons 안보이게 하기 */
