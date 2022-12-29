@@ -59,7 +59,8 @@
     height: 400px;
     position: relative;
     top: 250px;
-    left: 50px; 
+    left: 50px;
+    z-index: 9000;
    
 } 
 
@@ -197,7 +198,7 @@
     float: left;
     width: 650px;
     height: 600px;
-    border-radius: 20px;
+    border-radius: 5px;
     background-color: #9BB8D5;
 }
 #about ul h3 {
@@ -293,7 +294,7 @@
     width: 570px;
     height: 300px;
     margin-left: 100px;
-    border-radius: 20px;
+    border-radius:5px;
     background-color: #9BB8D5;
 }
 #about .box p  {
@@ -318,14 +319,17 @@
 /*portfolio*/
 #portfolio {
     width: 100%;
-    height: 800px;
+    position: relative;
+
 }
 
 .portfolio_in {
+    position: relative;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     width: 100%;
-    height: 800px;
+    
+   
 }
 
 #portfolio header {
@@ -336,11 +340,105 @@
     padding-top: 50px;
 }
 .portfolio_in .box {
-    margin-top: 60px;
-    width: 1400px;
-    height: 600px;
+    margin: 60px auto;
+    width: 1200px;
     background-color: #9BB8D5;
+    border-radius: 5px;
 }
+
+.box1 .box1_in {
+    position: relative;
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.box1 .box1_in h3 {
+    font-size: 26px;
+    text-align: left;
+    margin-top: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.box1 .box1_in img {
+    width: 500px;
+    float: right;
+    margin:30px 0 30px 0;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.box2 .box2_in {
+    position: relative;
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.box2 .box2_in h3 {
+    font-size: 26px;
+    text-align: left;
+    margin-top: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.box2 .box2_in img {
+    width: 500px;
+    float: right;
+    margin:30px 0 30px 0;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+
+.port_txt {
+    float: left;
+    width: 400px;
+    height: 250px;
+    margin:30px 0 30px 0;
+   
+}
+
+.port_txt p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.port_txt .skils {
+    display: flex;
+    flex-direction: row;
+}
+
+.skils div {
+    text-align: center;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #9BB8D5;
+    border: 1px solid #fff;
+}
+
+
+
+.add_git a {
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+
+
 
 /* goal */
 #goal {
